@@ -15,10 +15,10 @@ import numpy as np
 from mpi4py import MPI
 
 import cp2k_spm_tools.cp2k_grid_orbitals as cgo
-import hrstm_tools.cp2k_grid_matrix as cgm
-import hrstm_tools.hrstm as hs
-import hrstm_tools.hrstm_utils as hu
-import hrstm_tools.tip_coeffs as tc
+import cp2k_spm_tools.hrstm_tools.cp2k_grid_matrix as cgm
+import cp2k_spm_tools.hrstm_tools.hrstm as hs
+import cp2k_spm_tools.hrstm_tools.hrstm_utils as hu
+import cp2k_spm_tools.hrstm_tools.tip_coeffs as tc
 from cp2k_spm_tools.cube import Cube
 
 

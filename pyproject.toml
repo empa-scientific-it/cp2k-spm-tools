@@ -47,7 +47,11 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-packages = ["cp2k_spm_tools", "cp2k_spm_tools.cli"]
+packages = [
+    "cp2k_spm_tools",
+    "cp2k_spm_tools.cli",
+    "cp2k_spm_tools.hrstm_tools",
+]
 
 [tool.ruff]
 line-length = 120
